@@ -1,3 +1,9 @@
+.page-wrap{
+   width:960px;
+   margin:0 auto;
+   text-align:left;
+}
+
 h2{
 color: rgb(111, 181, 246)
 }
