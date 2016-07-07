@@ -14,13 +14,14 @@
   <p>Visit our Web site to learn more.</p>
   <p>If you have any questions about applying, please email us <em>(email address to use: rpanzer@iqsolutions.com)</em></p>
   <strong>Please note: All fields are required unless otherwise noted.</strong>
-  <hr>
+  <hr class="hr1">
 
   <!-- Contact Information -->
-  <strong>Contact Information</strong>
+  <p class="contact_title"><strong>Contact Information</strong></p>
   <form>
-    <label for="salutation">Salutation(optional)</label>
-    <select name="salutation" id="salutation">
+    <div class="input_styling">
+    <label for="salutation">Salutation (optional)</label>
+    <select name="salutation" id="dropdown">
       <option value="mr">Mr.</option>
       <option value="miss">Miss.</option>
       <option value="ms">Ms.</option>
@@ -34,8 +35,8 @@
     <label for="last_name">Last Name</label>
     <input type="text" id="contact_text" required name="lastname"/>
     <br>
-    <label for="suffix">Suffix(optional)</label>
-    <select name="suffix" id="suffix">
+    <label for="suffix">Suffix (optional)</label>
+    <select name="suffix" id="dropdown">
       <option value="jr">Jr.</option>
       <option value="sr">Sr.</option>
       <option value="II">II</option>
@@ -51,17 +52,19 @@
     <label for="mailing_address">Mailing Address1</label>
     <input type="text" id="contact_text" required name="mailing_address"/>
     <br>
-    <label for="mailing_address2">Mailing Address2 (Optional)</label>
+    <label for="mailing_address2">Mailing Address2 <br> (Optional)</label>
     <input type="text" id="contact_text" name="mailing_address2"/>
     <br>
-    <label for="mailing_address3">Mailing Address3 (Optional)</label>
-    <input type="text" id="contact_text" name="mailing_address3"/>
+    <div class="address3">
+      <label for="mailing_address3">Mailing Address3 <br>(Optional)</label>
+      <input type="text" id="contact_text" name="mailing_address3"/>
+    </div>
     <br>
     <label for="city">City</label>
     <input type="text" id="contact_text" required name="city"/>
-    <p>(Required for U.S., Canada, Australia)</p>
+    <p class="city_info">(Required for U.S., Canada, Australia)</p>
     <label for="state">State/Province</label>
-    <select name="state" id="state">
+    <select name="state" id="dropdown">
       <option value="">State...</option>
       <option value="AK">AK</option>
       <option value="AL">AL</option>
@@ -120,7 +123,7 @@
     <input type="text" id="zipcode_text" required name="zipcode"/>
     <br>
     <label for="country">Country</label>
-    <select name="country">
+    <select name="country" id="dropdown">
       <option value="">Country...</option>
       <option value="Afganistan">Afghanistan</option>
       <option value="Albania">Albania</option>
@@ -370,6 +373,7 @@
       <option value="Zambia">Zambia</option>
       <option value="Zimbabwe">Zimbabwe</option>
     </select>
+  </div>
   </form>
   </div>
 

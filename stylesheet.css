@@ -8,10 +8,41 @@ h2{
 color: rgb(111, 181, 246)
 }
 
+.hr1{
+  margin: 25px 0 25px 0;
+}
+
+.contact_title{
+  margin-bottom: 25px;
+}
+
 #contact_text{
   width: 250px;
 }
 
 #zipcode_text{
-  width: 60px;
+  width: 70px;
+}
+
+#dropdown{
+  margin-left: 200px;
+  margin-bottom: 5px;
+}
+
+.input_styling input{
+  margin-left: 200px;
+  margin-bottom: 5px;
+}
+
+.input_styling label{
+  position:fixed;
+}
+
+.city_info{
+  font-size: 12px;
+  margin: 3px 0 15px 200px;
+}
+
+.address3{
+  margin-top: 15px;
 }
