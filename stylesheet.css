@@ -1,3 +1,11 @@
 h2{
 color: rgb(111, 181, 246)
 }
+
+#contact_text{
+  width: 250px;
+}
+
+#zipcode_text{
+  width: 60px;
+}
