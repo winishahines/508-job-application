@@ -21,7 +21,7 @@
   <form>
     <div class="input_styling">
     <label for="salutation">Salutation (optional)</label>
-    <select name="salutation" id="dropdown">
+    <select name="salutation" id="salutation" class="dropdown">
       <option value="mr">Mr.</option>
       <option value="miss">Miss.</option>
       <option value="ms">Ms.</option>
@@ -30,13 +30,13 @@
     </select>
     <br>
     <label for="first_name">First Name</label>
-    <input type="text" id="contact_text" required name="firstname"/>
+    <input type="text" id="first_name" class="contact_text" required name="firstname"/>
     <br>
     <label for="last_name">Last Name</label>
-    <input type="text" id="contact_text" required name="lastname"/>
+    <input type="text" id="last_name" class="contact_text" required name="lastname"/>
     <br>
     <label for="suffix">Suffix (optional)</label>
-    <select name="suffix" id="dropdown">
+    <select name="suffix" id="suffix" class="dropdown">
       <option value="jr">Jr.</option>
       <option value="sr">Sr.</option>
       <option value="II">II</option>
@@ -50,21 +50,21 @@
     <hr>
     <br>
     <label for="mailing_address">Mailing Address1</label>
-    <input type="text" id="contact_text" required name="mailing_address"/>
+    <input type="text" id="mailing_address" class="contact_text" required name="mailing_address"/>
     <br>
     <label for="mailing_address2">Mailing Address2 <br> (Optional)</label>
-    <input type="text" id="contact_text" name="mailing_address2"/>
+    <input type="text" id="mailing_address2" class="contact_text" name="mailing_address2"/>
     <br>
     <div class="address3">
       <label for="mailing_address3">Mailing Address3 <br>(Optional)</label>
-      <input type="text" id="contact_text" name="mailing_address3"/>
+      <input type="text" id="mailing_address3" class="contact_text" name="mailing_address3"/>
     </div>
     <br>
     <label for="city">City</label>
-    <input type="text" id="contact_text" required name="city"/>
+    <input type="text" id="city" class="contact_text" required name="city"/>
     <p class="city_info">(Required for U.S., Canada, Australia)</p>
     <label for="state">State/Province</label>
-    <select name="state" id="dropdown">
+    <select name="state" id="state" class="dropdown">
       <option value="">State...</option>
       <option value="AK">AK</option>
       <option value="AL">AL</option>
@@ -120,10 +120,10 @@
     </select>
     <br>
     <label for="zipcode">Zip/Postal Code</label>
-    <input type="text" id="zipcode_text" required name="zipcode"/>
+    <input type="text" id="zipcode" required name="zipcode"/>
     <br>
     <label for="country">Country</label>
-    <select name="country" id="dropdown">
+    <select name="country" id="country" class="dropdown">
       <option value="">Country...</option>
       <option value="Afganistan">Afghanistan</option>
       <option value="Albania">Albania</option>

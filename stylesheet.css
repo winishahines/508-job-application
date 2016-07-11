@@ -16,7 +16,7 @@ color: rgb(111, 181, 246)
   margin-bottom: 25px;
 }
 
-#contact_text{
+.contact_text{
   width: 250px;
 }
 
@@ -24,7 +24,7 @@ color: rgb(111, 181, 246)
   width: 70px;
 }
 
-#dropdown{
+.dropdown{
   margin-left: 200px;
   margin-bottom: 5px;
 }
