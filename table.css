@@ -10,3 +10,7 @@ th, td {
   background-color: black;
   color: white;
 }
+
+caption{
+  margin-bottom: 10px;
+}
