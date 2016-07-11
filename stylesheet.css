@@ -1,11 +1,11 @@
 .page-wrap{
-   width:960px;
-   margin:0 auto;
-   text-align:left;
+  width:960px;
+  margin:0 auto;
+  text-align:left;
 }
 
 h2{
-color: rgb(111, 181, 246)
+  color: rgb(111, 181, 246)
 }
 
 .hr1{
@@ -20,22 +20,28 @@ color: rgb(111, 181, 246)
   width: 250px;
 }
 
-#zipcode_text{
+#zipcode{
   width: 70px;
 }
 
-.dropdown{
-  margin-left: 200px;
+.dropdown1{
+  margin-left: 250px;
   margin-bottom: 5px;
 }
-
-.input_styling input{
+.dropdown2{
   margin-left: 200px;
   margin-bottom: 5px;
 }
 
 .input_styling label{
-  position:fixed;
+  width: 200px;
+  position: absolute;
+}
+
+.input_styling input{
+  margin-bottom: 5px;
+  margin-left: 200px;
+  display: inline-block;
 }
 
 .city_info{
